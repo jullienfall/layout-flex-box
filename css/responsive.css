@@ -1,0 +1,12 @@
+@media (max-width: 992px) {
+    .main .aside-left {
+        flex: 100vw;
+        order: 3;
+    }
+}
+@media (max-width: 768px) {
+    .main .aside-right {
+        flex: 100vw;
+        order: 3;
+    }
+}

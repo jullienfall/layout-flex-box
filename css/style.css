@@ -1,0 +1,37 @@
+body {
+  margin: 0; 
+  text-align: center;
+}
+.main {
+  display: flex;  
+  flex-flow: row wrap;
+}
+.main > article {
+    flex: 1;
+    height: 40vh;
+}
+.main > aside {
+    flex: 0 0 20vw;
+    height: 40vh;
+}
+.header,
+.footer {
+  height: 10vh;
+  line-height: 10vh;
+}
+.header {
+  background: #ef715b;
+}
+.footer {
+  background: #f27fee;
+}
+.main {
+  background: #add8e6;
+}
+.aside-left {
+  background: #2da32d;
+  order: -1;
+}
+.aside-right {
+  background: #ffb6c1;
+}
